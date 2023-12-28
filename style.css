@@ -1,0 +1,25 @@
+.main{
+    background-image: url(img/parede.jpg);
+}
+.form{
+    border:  4mm ridge rgba(243, 255, 20, 0.856);
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+img{
+    max-width: 200px;
+    
+}
+.mons{
+    background: url(img/gramado.jpg) , white;
+    background-position-y: bottom;
+    border: 3px solid gray;
+    width: auto;
+    height: auto;
+}
+p{
+    min-width: 200px;
+    border: 2mm ridge rgba(255, 20, 20, 0.856);
+    border-radius: 8px;
+    background-color: aliceblue;
+}

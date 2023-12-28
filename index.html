@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Class</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="main container-fluid">
+
+        <div class="row text-center">
+
+            <div class="col-8 offset-2 my-3">
+
+                <h1> Ajude a combater o Monstro!</h1>
+                <h2> Monte sua Classe para Lutar:</h2>
+
+            </div>
+
+        </div>
+
+        <div class="row text-start">
+            <div class="form col-8 offset-2 my-5">
+
+               <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col-12 my-3 d-flex justify-content-evenly text-center">
+
+                            <form>
+                                    
+                                    <div class="col-12 my-4">
+                                        <label for="Nome">Nome:</label>
+                                        <input type="text" name="name" id="name">
+                                    </div>
+
+                                    <div class="col-12 my-4">
+                                        <label for="Nome">Idade:</label>
+                                        <input type="number" name="idade" id="idade">
+                                    </div>
+
+                                    <div class="col-12 my-4">
+                                        <label for="Tipo">Tipo: </label>
+                                        <select name="hero" id="hero">
+                                            <option value="Mago">Mago</option>
+                                            <option value="Guerreiro">Guerreiro</option>
+                                            <option value="Monge">Monge</option>
+                                            <option value="Ninja">Ninja</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="row text-center">
+
+                                        <div class="col-10 offset-1">
+
+                                            <button type="button" class="btn btn-danger" onclick="verificacao()">Atacar</button>
+
+                                        </div>
+
+                                    </div>
+                                    
+                            </form>
+
+                        </div>
+
+                    </div>
+
+               </div>
+
+            </div>
+
+        </div>
+
+        <div class="mons row text-center ">
+
+            <div class="col-10 offset-1 my-3 d-lg-flex justify-content-lg-evenly align-items-center">
+
+                <img src="img/Mago.png"  class="img mx-auto d-block" alt="monstro">
+
+
+                <div>
+                    <p class="text-break my-5 p-4">saddddddddddddddddddddddddddddddd</p>
+                </div>
+
+
+                <img src="img/monster.png"  class="img mx-auto d-block" alt="monstro">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
